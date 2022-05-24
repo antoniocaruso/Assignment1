@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pylab as plt
 import seaborn as sns
 
-df = pd.read_csv("IMDB.csv")                        #Richiamo il dataframe IMDB
+df = pd.read_csv("IMDB.csv")                        #Carico il dataframe IMDB
 pd.set_option('expand_frame_repr', False)           #Funzione per visualizzare il dataframe per esteso sulla console
 print(df.head(10))                                  #Visualizzo in console le prime 10 righe del dataframe
 
